@@ -10,5 +10,5 @@ is_admin = False
 
 add_sugar = True  # Assigning True to indicate that sugar is added to the tea
 how_much_sugar = 2  # Assigning the amount of sugar added, in teaspoons
-total_sugar = add_sugar + how_much_sugar  # Adding the boolean and integer values; True is treated as 1
+total_sugar = add_sugar + how_much_sugar  # Adding the boolean and integer values; True is treated as 1 ans False is treated as 0
 print("Total sugar added:", total_sugar)  # Displays the total amount of sugar added if 'add_sugar' is True
